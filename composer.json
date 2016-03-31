@@ -1,0 +1,31 @@
+{
+    "name": "llstarscreamll/ImageGallery",
+    "description": "Gestor de galerías de imágenes.",
+    "keywords": [
+        "llstarscreamll",
+        "ImageGallery"
+    ],
+    "license": "MIT",
+    "type": "llstarscreamll-module",
+    "authors": [
+        {
+            "name": "Johan Alvarez",
+            "email": "llstarscreamll@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "llstarscreamll@hotmail.com",
+        "issues": "https://github.com/llstarscreamll/ImageGallery/issues",
+        "source": "https://github.com/llstarscreamll/ImageGallery"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "intervention/image": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

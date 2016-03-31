@@ -1,0 +1,24 @@
+{
+  "name": "Sanoha Web System",
+  "homepage": "https://github.com/llstarscreamll/ElCaballo",
+  "authors": [
+    "Johan Alvarez <llstarscreamll@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/resources",
+    "tests"
+  ],
+  "dependencies": {
+    "easyzoom": "*"
+  }
+}
