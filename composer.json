@@ -24,7 +24,6 @@
         "intervention/image": "*"
     },
     "require-dev": {
-        "codeception/codeception": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

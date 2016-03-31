@@ -3,7 +3,7 @@
 @section('title') Editar Galería @stop
 
 @section('style-after')
-    <link rel="stylesheet" type="text/css" href="{{asset('resources/ImageGalleryModule/dropzonejs/dropzone.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('resources/ImageGalleryModule/dropzone/dist/min/dropzone.min.css')}}">
 @endsection
 
 @section('content')
@@ -98,7 +98,7 @@
 
 @section('script')
     <!-- JavaScript Includes -->
-    <script src="{{asset('resources/ImageGalleryModule/dropzonejs/dropzone.min.js')}}"></script>
+    <script src="{{asset('resources/ImageGalleryModule/dropzone/dist/min/dropzone.min.js')}}"></script>
     <script type="text/javascript">
         
     </script>

@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
+    "dropzone": "*",
     "easyzoom": "*"
   }
 }
