@@ -12,6 +12,17 @@ use llstarscreamll\ImageGalleryModule\app\Models\GalleryImage;
 class ImageGalleryController extends Controller
 {
     /**
+     * Create a new controller instance.
+     */
+    public function __construct()
+    {
+        // el usuario debe estar autenticado para acceder al controlador
+        $this->middleware('auth');
+        // el usuario debe tener permisos para acceder al controlador
+        $this->middleware('checkPermissions', ['except' => ['store', 'update']]);
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
