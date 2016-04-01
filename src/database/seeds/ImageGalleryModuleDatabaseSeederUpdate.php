@@ -4,7 +4,7 @@ use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class ImageGalleryModuleDatabaseSeeder extends Seeder
+class ImageGalleryModuleDatabaseSeederUpdate extends Seeder
 {
     /**
      * El dato de la fecha para creación de los registros.
