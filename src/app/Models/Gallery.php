@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Gallery extends Model
 {
-	use SoftDeletes;
+    use SoftDeletes;
 
-	/**
-	 * attributes formated as dates
-	 * 
-	 * @var array
-	 */
+    /**
+     * attributes formated as dates
+     * 
+     * @var array
+     */
     protected $dates = ['created_at', 'updated_at', 'deleted_at'];
 
     /**
@@ -37,6 +37,6 @@ class Gallery extends Model
      */
     public function images()
     {
-    	return $this->hasMany('llstarscreamll\ImageGalleryModule\app\Models\GalleryImage');
+        return $this->hasMany('llstarscreamll\ImageGalleryModule\app\Models\GalleryImage');
     }
 }

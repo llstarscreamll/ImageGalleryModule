@@ -3,7 +3,6 @@
 namespace llstarscreamll\ImageGalleryModule\app\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use llstarscreamll\ImageGalleryModule\app\Models\Gallery;
@@ -107,7 +106,7 @@ class ImageGalleryController extends Controller
     {
         $file = $request->file('file');
 
-        if($file) {
+        if ($file) {
             // la carpeta donde guardar la imagen
             $destinationPath = config('llstarscreamll.ImageGalleryModule.config.module-config.images_store_path');
             // el nombre del archivo del cliente

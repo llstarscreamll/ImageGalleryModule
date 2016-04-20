@@ -12,15 +12,15 @@
 */
 
 Route::post('imageGallery/uploadImage', [
-	'as'	=> 'imageGallery.uploadImage',
-	'uses'	=> 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@uploadImage'
-	]);
+    'as'    => 'imageGallery.uploadImage',
+    'uses'    => 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@uploadImage'
+    ]);
 Route::delete('imageGallery/{image}/destroyImage', [
-	'as'	=> 'imageGallery.destroyImage',
-	'uses'	=> 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@destroyImage'
-	]);
+    'as'    => 'imageGallery.destroyImage',
+    'uses'    => 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@destroyImage'
+    ]);
 Route::get('imageGallery/{imageGallery}/slide', [
-	'as'	=> 'imageGallery.slide',
-	'uses'	=> 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@slide'
-	]);
+    'as'    => 'imageGallery.slide',
+    'uses'    => 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController@slide'
+    ]);
 Route::resource('imageGallery', 'llstarscreamll\ImageGalleryModule\app\Http\Controllers\ImageGalleryController');

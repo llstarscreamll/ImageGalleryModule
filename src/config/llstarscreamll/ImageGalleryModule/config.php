@@ -10,13 +10,13 @@
  */
 
 return [
-	'module-info'	=>	[
-		'name'		=>	'ImageGalleryModule',
-		'version'	=>	'0.1',
-		'enabled'	=>	true,
-	],
+    'module-info'    =>    [
+        'name'        =>    'ImageGalleryModule',
+        'version'    =>    '0.1',
+        'enabled'    =>    true,
+    ],
 
-	'module-config'	=>	[
-		'images_store_path'	=>	'/uploads/img/ImageGalleryModule/'
-	]
+    'module-config'    =>    [
+        'images_store_path'    =>    '/uploads/img/ImageGalleryModule/'
+    ]
 ];

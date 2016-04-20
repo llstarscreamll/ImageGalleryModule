@@ -9,11 +9,11 @@ class GalleryImage extends Model
 {
     use SoftDeletes;
 
-	/**
-	 * attributes formated as dates
-	 * 
-	 * @var array
-	 */
+    /**
+     * attributes formated as dates
+     * 
+     * @var array
+     */
     protected $dates = ['created_at', 'updated_at', 'deleted_at'];
 
     /**
@@ -37,6 +37,6 @@ class GalleryImage extends Model
      */
     public function gallery()
     {
-    	return $this->belongsTo('llstarscreamll\ImageGalleryModule\app\Models\Gallery');
+        return $this->belongsTo('llstarscreamll\ImageGalleryModule\app\Models\Gallery');
     }
 }
