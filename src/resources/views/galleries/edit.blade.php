@@ -2,7 +2,7 @@
 
 @section('title') Editar Galería @stop
 
-@section('style-after')
+@section('style')
     <link rel="stylesheet" type="text/css" href="{{asset('resources/ImageGalleryModule/dropzone/dist/min/dropzone.min.css')}}">
 @endsection
 

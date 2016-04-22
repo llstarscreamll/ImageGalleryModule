@@ -2,7 +2,7 @@
 
 @section('title') Slide @stop
 
-@section('style-after')
+@section('style')
 	{{-- include the easyzoom component css --}}
 	<link rel="stylesheet" type="text/css" href="{{ asset('resources/ImageGalleryModule/easyzoom/css/easyzoom.css') }}">
 
